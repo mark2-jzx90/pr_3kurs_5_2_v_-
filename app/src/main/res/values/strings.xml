@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Факты о числах</string>
+    <string name="vxod">Вход в систему</string>
+    <string name="name">Имя</string>
+    <string name="soxraneno">Сохранено в Room</string>
+    <string name="nazad">Назад к поиску</string>
+</resources>

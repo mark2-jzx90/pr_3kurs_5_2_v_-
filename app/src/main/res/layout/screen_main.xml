@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vino"
+    android:padding="15dp"
+    android:id="@+id/screenMain"
+    android:visibility="gone">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Привет"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:id="@+id/tvUserHello"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Приложение Numbers API"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/etNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введи число"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray"
+        android:inputType="number"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnSearchFact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Поиск факта"/>
+
+    <TextView
+        android:id="@+id/tvFactOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Результат появится тут"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnSaveFact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить в базу Room"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnGoToHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Посмотреть историю"
+        android:layout_marginTop="40dp"/>
+</LinearLayout>
